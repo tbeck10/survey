@@ -33,6 +33,11 @@ nav li {
   display: inline-block;
 }
 
+nav a {
+  color: white;
+  font-size: 16px;
+}
+
 .welcome {
   background-color: #DBE9EE;
   padding: 40px;
