@@ -38,6 +38,10 @@ nav a {
   font-size: 16px;
 }
 
+nav a:hover {
+  color: #DBE9EE;
+}
+
 .welcome {
   background-color: #DBE9EE;
   padding: 40px;
@@ -55,4 +59,46 @@ nav a {
   font-family: 'Varela Round', sans-serif;
   font-size: 18px;
   font-weight: normal;
+}
+
+/* Questions */
+
+.questions {
+  top: 240px;
+  position: relative;
+}
+
+.question {
+  margin: 120px auto;
+  text-align: center;
+}
+
+.question h4 {
+  color: #466995;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.prompt {
+  margin-bottom: 40px;
+  color: #333333;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 26px;
+  font-weight: 100;
+  display: block;
+}
+
+.answer {
+  width: 220px;
+  padding: 57px 0;
+  border: 1px solid #466995;
+  margin: 20px;
+  color: #466995;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.answer:hover {
+  background: #C0D6DF;
+  color: white;
 }
